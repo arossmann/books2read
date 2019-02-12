@@ -1,0 +1,2 @@
+# Lean / Agile
+- The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses (Eric Ries) [link](https://www.goodreads.com/book/show/10127019-the-lean-startup)
