@@ -3,4 +3,3 @@
 - Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation (Jez Humble, David Farley) [link](https://www.goodreads.com/book/show/8686650-continuous-delivery)
 - 37 Things One Architect Knows about IT Transformation (Gregor Hohpe) [link](https://www.goodreads.com/book/show/29499887-37-things-one-architect-knows) 
 - The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations (Gene Kim, Jez Humble, Patrick Debois) [link](https://www.goodreads.com/book/show/26083308-the-devops-handbook)
-- Building Microservices: Designing Fine-Grained Systems (Sam Newman) [link](https://www.goodreads.com/book/show/22512931-building-microservices)
