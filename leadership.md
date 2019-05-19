@@ -5,3 +5,6 @@
 - Drive: The Surprising Truth About What Motivates Us  (Daniel H. Pink) [link](https://www.goodreads.com/book/show/6452796-drive); [My Review](./review/DanielHPink_Drive.md)
 - Reinventing Organizations (Frederic Laloux) [link](http://www.reinventingorganizations.com/)
 - Turn the Ship Around!: A True Story of Turning Followers into Leaders (L. David Marquet) [link](https://www.goodreads.com/book/show/16158601-turn-the-ship-around)
+- Management 3.0 (Jurgen Appelo) [link](ttps://www.amazon.de/Management-3-0-Developers-Developing-Addison-Wesley/dp/0321712471/ref=sr_1_1?s=books-intl-de&ie=UTF8&qid=1537641923&sr=1-1&keywords=management+3.0)
+- How to change the world (Jurgen Appelo) [link](http://jurgenappelo.com/how-to-change-the-world/)
+- Extreme Ownership: How US Navy Seals Lead and Win (Jocko Willink) [link](https://www.amazon.de/Extreme-Ownership-Navy-Seals-Lead/dp/1250183863)
