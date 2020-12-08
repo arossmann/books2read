@@ -3,7 +3,7 @@ layout: default
 title: Architecture
 weight: 2
 ---
-# Architure
+# Architecture
 
 <main class="shelf">
   {% for book in site.data.architecture %}
