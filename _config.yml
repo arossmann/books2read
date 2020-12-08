@@ -3,5 +3,7 @@ title: Books2Read
 email: arne.rossmann@gmail.com
 description: >
   My books I've read or I'll read.
+baseurl: ""
+url: "https://arnerossmann.gitlab.io/books2read/"
 sass:
   style: compressed
