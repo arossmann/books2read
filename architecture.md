@@ -1,7 +1,16 @@
+---
+layout: default
+title: Architecture
+weight: 2
+---
 # Architure
-- Evolutionary Architecture - Support Constant Change (Neal Ford, Rebecca Parsons, Patrick Kua) [link](http://shop.oreilly.com/product/0636920080237.do)
-- Continuous Architecture: Sustainable Architecture in an Agile and Cloud-Centric World (Murat Erder, Pierre Pureur) [link](https://www.amazon.com/Continuous-Architecture-Sustainable-Agile-Cloud-Centric/dp/0128032847)
-- Designing Data-Intensive Applications (Martin Kleppmann) [link](https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/)
-- Architecting for Scale: High Availability for Your Growing Applications (Lee Atchinson)[link](https://www.amazon.com/gp/product/B01IAK49FS/ref=as_li_tl?ie=UTF8&tag=devopslinks0e-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B01IAK49FS&linkId=7ae0818196e164312964ba6b0f626955&ref=booksfordevopshandcuratedtechbooks)
-- Building Microservices: Designing Fine-Grained Systems (Sam Newman) [link](https://www.goodreads.com/book/show/22512931-building-microservices)
-- Production-Ready Microservices (Susan Fowler) [link](https://www.amazon.com/gp/product/1491965975/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1491965975&linkCode=as2&tag=devopslinks0e-20&linkId=780b66f35126cc812e196c502294096f&ref=booksfordevopshandcuratedtechbooks)
+
+<main class="shelf">
+  {% for book in site.data.architecture %}
+    {% assign title=book.title %}
+    {% assign author=book.author %}
+    {% assign image=book.image %}
+    {% assign link=book.link %}
+    {% include book.html %}
+  {% endfor %}
+</main>

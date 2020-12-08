@@ -1,0 +1,24 @@
+- title: Evolutionary Architecture - Support Constant Change
+  author: Neal Ford, Rebecca Parsons, Patrick Kua
+  image: https://learning.oreilly.com/library/cover/9781491986356/250w/
+  link: http://shop.oreilly.com/product/0636920080237.do
+- title: Continuous Architecture - Sustainable Architecture in an Agile and Cloud-Centric World
+  author: Murat Erder, Pierre Pureur
+  image: https://images-na.ssl-images-amazon.com/images/I/51CbPcv36tL._SX403_BO1,204,203,200_.jpg
+  link: https://www.amazon.com/Continuous-Architecture-Sustainable-Agile-Cloud-Centric/dp/0128032847
+- title: Designing Data-Intensive Applications
+  author: Martin Kleppmann
+  image: https://learning.oreilly.com/library/cover/9781491903063/250w/
+  link: https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/
+- title: Architecting for Scale - High Availability for Your Growing Applications
+  author: Lee Atchinson
+  image: https://images-na.ssl-images-amazon.com/images/I/517VqnwBy9L._SX379_BO1,204,203,200_.jpg
+  link: https://www.amazon.com/Architecting-Scale-Lee-Atchison/dp/1491943394/ref=sr_1_1?dchild=1&keywords=Architecting+for+Scale+-+High+Availability+for+Your+Growing+Applications&qid=1607426381&sr=8-1
+- title: Building Microservices - Designing Fine-Grained Systems
+  author: Sam Newman
+  image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1403186979l/22512931.jpg
+  link: https://www.goodreads.com/book/show/22512931-building-microservices
+- title: Production-Ready Microservices
+  author: Susan Fowler
+  image: https://images-na.ssl-images-amazon.com/images/I/41yJ75gpV-L._SX381_BO1,204,203,200_.jpg
+  link: https://www.amazon.com/gp/product/1491965975/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1491965975&linkCode=as2&tag=devopslinks0e-20&linkId=780b66f35126cc812e196c502294096f&ref=booksfordevopshandcuratedtechbooks

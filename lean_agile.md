@@ -1,3 +1,16 @@
+---
+layout: default
+title: Lean / Agile
+weight: 5
+---
 # Lean / Agile
-- The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses (Eric Ries) [link](https://www.goodreads.com/book/show/10127019-the-lean-startup)
-- Lean Enterprise: How High Performance Organizations Innovate at Scale (Jez Humble,  Joanne Molesky, Barry O'Reilly) [link](https://www.goodreads.com/book/show/18167218-lean-enterprise)
+
+<main class="shelf">
+  {% for book in site.data.lean_agile  %}
+    {% assign title=book.title %}
+    {% assign author=book.author %}
+    {% assign image=book.image %}
+    {% assign link=book.link %}
+    {% include book.html %}
+  {% endfor %}
+</main>

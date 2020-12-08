@@ -1,0 +1,11 @@
+<!-- Nav -->
+<nav id="nav">
+	<ul>
+  {% assign sorted = site.html_pages | sort: 'weight' %}
+  {% for node in sorted %}
+        <li class="nav-item{% if page.url == node.url %} active{% endif %}">
+          <a class="nav-link" href="{{ node.url }}" title="{{ node.title }}"><span class="d-none d-lg-inline"> {{ node.title }}</span></a>
+        </li>
+  {% endfor %}
+</ul>
+</nav>

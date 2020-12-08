@@ -1,11 +1,16 @@
-# leadership
-- Return of the Vikings - Nordic Leadership in Times of Extreme Change (Chris Shern, Henrik Jeberg) [link](https://dpf.dk/produkt/bog/return-vikings)
-- Start with the Why (Simon Sinek) [link](https://www.goodreads.com/book/show/7108725-start-with-why)
-- Leaders eat Last (Simon Sinek) [link](https://www.goodreads.com/book/show/16144853-leaders-eat-last)
-- The Infinite Game (Simon Sinek) [link](https://www.goodreads.com/book/show/38390751-the-infinite-game)
-- Drive: The Surprising Truth About What Motivates Us  (Daniel H. Pink) [link](https://www.goodreads.com/book/show/6452796-drive); [My Review](./review/DanielHPink_Drive.md)
-- Reinventing Organizations (Frederic Laloux) [link](http://www.reinventingorganizations.com/)
-- Turn the Ship Around!: A True Story of Turning Followers into Leaders (L. David Marquet) [link](https://www.goodreads.com/book/show/16158601-turn-the-ship-around)
-- Management 3.0 (Jurgen Appelo) [link](ttps://www.amazon.de/Management-3-0-Developers-Developing-Addison-Wesley/dp/0321712471/ref=sr_1_1?s=books-intl-de&ie=UTF8&qid=1537641923&sr=1-1&keywords=management+3.0)
-- How to change the world (Jurgen Appelo) [link](http://jurgenappelo.com/how-to-change-the-world/)
-- Extreme Ownership: How US Navy Seals Lead and Win (Jocko Willink) [link](https://www.amazon.de/Extreme-Ownership-Navy-Seals-Lead/dp/1250183863)
+---
+layout: default
+title: Leadership
+weight: 4
+---
+# Leadership
+
+<main class="shelf">
+  {% for book in site.data.leadership  %}
+    {% assign title=book.title %}
+    {% assign author=book.author %}
+    {% assign image=book.image %}
+    {% assign link=book.link %}
+    {% include book.html %}
+  {% endfor %}
+</main>

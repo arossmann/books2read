@@ -1,0 +1,7 @@
+# Site settings
+title: Books2Read
+email: arne.rossmann@gmail.com
+description: >
+  My books I've read or I'll read.
+sass:
+  style: compressed

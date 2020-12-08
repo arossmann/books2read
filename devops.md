@@ -1,20 +1,16 @@
+---
+layout: default
+title: DevOps
+weight: 3
+---
 # DevOps
-- The Goal: A Process of Ongoing Improvement (Eliyahu M. Goldratt, Jeff Cox) [link](https://www.goodreads.com/book/show/113934.The_Goal)
-- The Phoenix Project: A Novel About IT, DevOps, and Helping Your Business Win ( Gene Kim, Kevin Behr, George Spafford) [link](https://www.goodreads.com/book/show/17255186-the-phoenix-project)
-- Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation (Jez Humble, David Farley) [link](https://www.goodreads.com/book/show/8686650-continuous-delivery)
-- 37 Things One Architect Knows about IT Transformation (Gregor Hohpe) [link](https://www.goodreads.com/book/show/29499887-37-things-one-architect-knows) 
-- The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations (Gene Kim, Jez Humble, Patrick Debois) [link](https://www.goodreads.com/book/show/26083308-the-devops-handbook)
-- Site Reliability Engineering: How Google Runs Production Systems (Betsy Beyer, Chris Jones, Jennifer Petoff, Niall Richard Murphy) [link](https://www.goodreads.com/book/show/27968891-site-reliability-engineering)
-- The Site Reliability Workbook: Practical Ways to Implement SRE (Betsy Beyer (Editor), Niall Richard Murphy (Editor), David K. Rensin (Editor), Kent Kawahara (Editor), Stephen Thorne (Editor)) [link](https://www.goodreads.com/book/show/39687146-the-site-reliability-workbook)
 
-## DevOps Enterprise Summit 2020
-- Shattered Sword: The Untold Story of the Battle of Midway (Jonathan Parshall) [link](https://www.goodreads.com/book/show/34658.Shattered_Sword)
-- Agile Conversations: Transform Your Conversations, Transform Your Culture (Douglas Squirrel) [link](https://www.goodreads.com/book/show/53094749-agile-conversations)
-- The High-Velocity Edge: How Market Leaders Leverage Operational Excellence to Beat the Competition (Steven J. Spear) [link](https://www.goodreads.com/book/show/7667231-the-high-velocity-edge)
-- Learning War (Trent Hone) [link](https://www.goodreads.com/book/show/37640652-learning-war)
-- To Train the Fleet for War: The U.S. Navy Fleet Problems, 1923-1940 (Albert A. Nofi) [link](https://www.goodreads.com/book/show/14611169-to-train-the-fleet-for-war)
-- People Powered: How Communities Can Supercharge Your Business, Brand, and Teams (Jono Bacon) [link](https://www.goodreads.com/book/show/44442030-people-powered)
-- The Tyranny of Metrics (Jerry Z. Muller) [link](https://www.goodreads.com/book/show/36644895-the-tyranny-of-metrics)
-- The Other Side of Innovation: Solving the Execution Challenge (Vijay Govindarajan) [link](https://www.goodreads.com/book/show/8622633-the-other-side-of-innovation)
-- The Innovator's Dilemma: The Revolutionary Book that Will Change the Way You Do Business (Clayton M. Christensen) [link](https://www.goodreads.com/book/show/2615.The_Innovator_s_Dilemma)
-- The Structure of Scientific Revolutions (Thomas S. Kuhn) [link](https://www.goodreads.com/book/show/61539.The_Structure_of_Scientific_Revolutions)
+<main class="shelf">
+  {% for book in site.data.devops  %}
+    {% assign title=book.title %}
+    {% assign author=book.author %}
+    {% assign image=book.image %}
+    {% assign link=book.link %}
+    {% include book.html %}
+  {% endfor %}
+</main>

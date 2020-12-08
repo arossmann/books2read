@@ -1,5 +1,16 @@
+---
+layout: default
+title: Technology
+weight: 7
+---
 # Technology
 
-- AI Superpowers: China, Silicon Valley, and the New World Order (Kai-Fu Lee) [link](https://www.goodreads.com/book/show/38242135-ai-superpowers)
-- How Innovation works (Matt Ridley) [link](https://www.goodreads.com/book/show/52219273-how-innovation-works)
-- The Innovator's Dilemma: When New Technologies Cause Great Firms to Fail (Clayton M. Christensen) [link](https://www.goodreads.com/book/show/26160019-the-innovator-s-dilemma)
+<main class="shelf">
+  {% for book in site.data.technology  %}
+    {% assign title=book.title %}
+    {% assign author=book.author %}
+    {% assign image=book.image %}
+    {% assign link=book.link %}
+    {% include book.html %}
+  {% endfor %}
+</main>
