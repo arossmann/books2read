@@ -1,22 +1,21 @@
-menu_links:
-  - home:
-    title: Home
-    url: /
-  - technology:
-    title: Technology
-    url: technology.html
-  - architecture:
-    title: Architecture
-    url: architecture.html
-  - leadership:
-    title: Leadership
-    url: leadership.html
-  - lean_agile:
-    title: Lean & Agile
-    url: lean_agile.html
-  - devops:
-    title: DevOps
-    url: devops.html
-  - lifelessons:
-    title: Life Lessons
-    url: lifelessons.html
+- home:
+  title: Home
+  url: /
+- technology:
+  title: Technology
+  url: technology.html
+- architecture:
+  title: Architecture
+  url: architecture.html
+- leadership:
+  title: Leadership
+  url: leadership.html
+- lean_agile:
+  title: Lean & Agile
+  url: lean_agile.html
+- devops:
+  title: DevOps
+  url: devops.html
+- lifelessons:
+  title: Life Lessons
+  url: lifelessons.html
