@@ -19,6 +19,10 @@
   image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348931599l/6452796.jpg
   link: https://www.goodreads.com/book/show/6452796-drive
   my-review: ./review/DanielHPink_Drive.md
+- title: Magic Words
+  author: Jonah Berger
+  image: https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1675642206i/61281762.jpg
+  link: https://www.goodreads.com/book/show/61281762-magic-words?from_search=true&from_srp=true&qid=aVkaT2PExd&rank=1
 - title: Reinventing Organizations
   author: Frederic Laloux
   image: https://images-na.ssl-images-amazon.com/images/I/51R0FXTzP3L._SX331_BO1,204,203,200_.jpg
@@ -35,6 +39,10 @@
   author: Jurgen Appelo
   image: https://jurgenappelo.com/wp-content/uploads/2018/08/book-how-to-change-the-world-Jurgen-appelo.png
   link: http://jurgenappelo.com/how-to-change-the-world/
+- title: The Solutionists - How Businesses Can Fix the Future
+  link:
+  author:
+  image: 
 - title: Extreme Ownership - How US Navy Seals Lead and Win
   author: Jocko Willink
   image: https://m.media-amazon.com/images/I/51yoHjJDQ3L.jpg
